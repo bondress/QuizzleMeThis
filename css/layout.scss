@@ -3,21 +3,9 @@ $bg: #3c445c;
 $wht: #fff;
 $blue: #4eb3fd;
 $lit-blue: #22bac8;
-$dblue: #294255;
-$gray: #f3f3f3;
-$black: #040201;
 $black: #2f2d28;
-$purple: #70689c;
-$lit-purple: #d3cfdd;
-$lit-yellow: #e8d8bf;
-$lit-gray: #d1d8de;
-$lit-green: #d4e0cc;
 $shad: 10px 10px 10px -5px #0004;
 $yel: #fac251;
-$red: #f66;
-$red: #f94d24;
-$green: #09dba0;
-$green: #72a022;
 $dark: #232402;
 $text: #a8a8a8;
 $text: #c1c1c1;
@@ -416,6 +404,26 @@ footer {
   @include fxMid();
   gap: $xs;
   padding: $base;
+}
+
+.top-btn {
+  display: none;
+  position: fixed;
+  bottom: $md;
+  right: $lg;
+  z-index: 99;
+  font-size: $md;
+  border: none;
+  outline: none;
+  background-color: $lit-blue;
+  color: $wht;
+  cursor: pointer;
+  padding: $base;
+  border-radius: $rad;
+
+  &:hover {
+    background-color: #555;
+  }
 }
 
 //Handling Responsiveness

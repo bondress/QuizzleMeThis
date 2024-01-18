@@ -355,6 +355,25 @@ footer {
   padding: 1rem;
 }
 
+.top-btn {
+  display: none;
+  position: fixed;
+  bottom: 1.2rem;
+  right: 1.5rem;
+  z-index: 99;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  background-color: #22bac8;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.top-btn:hover {
+  background-color: #555;
+}
+
 @media screen and (max-width: 1150px) {
   .site-header {
     gap: 1rem;
