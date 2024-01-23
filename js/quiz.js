@@ -1,11 +1,14 @@
+// function to get one element
 function getOne(element) {
     return document.querySelector(element);
   }
-  
+
+  // function to get all elements of the same name
   const getAll = (elements) => {
     return document.querySelectorAll(elements);
   };
   
+  // Array to store question details
   const quizData = [
     {
         question: "What's the biggest animal in the world?",
@@ -93,6 +96,7 @@ submitButton = getOne(".quiz-btn");
 
 let currentQuestion = 0, score = 0;
 
+// function to show each question
 function showQuestion() {
     const question = quizData[currentQuestion];
     questionElement.innerText = question.question;
@@ -108,6 +112,7 @@ function showQuestion() {
     optionFour.addEventListener("click", selectAnswer);
 }
 
+// function to add the scores based on the correct answer
 function selectAnswer(e) {
     const selectedButton = e.target,
     answer = quizData[currentQuestion].answer;

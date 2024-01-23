@@ -1,5 +1,7 @@
+// get current score from local storage
 score = localStorage.getItem("currentScore");
 
+// function to show result based on score
 function showResult() {
     console.log(score);
     console.log("Is it working?");

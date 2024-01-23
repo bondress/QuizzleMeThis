@@ -25,6 +25,7 @@ let year = d.getFullYear();
 footYear = document.querySelector(".current-year");
 footYear.innerHTML = year;
 
+// Scroll-to-top function
 let topButton = document.querySelector(".top-btn");
 
 window.onscroll = function() {
