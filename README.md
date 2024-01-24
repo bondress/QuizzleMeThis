@@ -1,7 +1,7 @@
 <h1 align="center" id="title">QuizzleMeThis!</h1>
 
 <h2>Introduction</h2>
-<p id="description">A simple General Knowledge quiz built with HTML, CSS, and JavaScript. Blog link: , Author's LinkedIn: https://www.linkedin.com/in/laide-endeley/</p>
+<p id="description">A simple General Knowledge quiz built with HTML, CSS, and JavaScript. Blog link: https://bondress.hashnode.dev/how-i-designed-and-deployed-quizzlemethis, Author's LinkedIn: https://www.linkedin.com/in/laide-endeley/</p>
 
 <h2>Author's Story</h2>
 This project is very personal to me because I'm an Educator. I love quizzes and puzzles. They're my go to for teaching my students a specific skill. I knew I would do a quiz for my Personal Portfolio Project when the time came. Please share your feedback with me at endeleylaide@gmail.com when you do the quiz. I hope you like it! 
